@@ -1,6 +1,4 @@
-import '../scss/main.scss';
-
-/* place your code below */
+import '../scss/style.scss';
 
 const name = 'Przemek';
 const age = 41;
@@ -95,4 +93,4 @@ const hamburger = document.querySelector('.hamburger--js');
 hamburger.addEventListener('click',() => {
     const nav = document.querySelector('.navigation--js');
     nav.classList.toggle('navigation--open');
-});
+})

@@ -1,17 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WTF: Webpack starter kit</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <title>Document</title>
+
   </head>
+
   <body>
-    <div class="hello">
-      <img class="hello__logo" src="../assets/img/logo.svg" alt="WTF " />
-      <span class="hello__circles"></span>
-    </div>
+    <header class="header">
+      <button class="hamburger hamburger--js" aria-label="Otwórz menu">
+        Menu
+      </button>
+      <nav class="navigation navigation--js">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna</a
+        >
+        <a class="navigation__link" href="html.html">HTML</a>
+        <a class="navigation__link" href="css.html">CSS</a>
+        <a class="navigation__link" href="js.html">JavaScript</a>
+        <a class="navigation__link" href="pozostale.html">Pozostałe ważne</a>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="section">
+        <h1>Przemysław Hulicz - strona domowa</h1>
+      </section>
+      <section>
+        <h2><a href="html.html">HTML</a></h2>
+        <img class="picture" src="../assets/img/html.png" alt="logo html" />
+        <article>
+          <h3 class="article__title">Tuaj jest trochę teorii o HTML</h3>
+        </article>
+      </section>
+
+      <section>
+        <h2><a href="css.html">Nauka css</a></h2>
+        <img class="picture" src="../assets/img/css.png" alt="logo css" />
+        <article>
+          <h class="article__title">Tuaj jest trochę teorii o css</h3>
+        </article>
+      </section>
+
+      <section>
+        <h2><a href="js.html">Nauka JavaScript</a></h2>
+        <img class="picture" src="../assets/img/js.png" alt="logo js" />
+        <article>
+          <h3 class="article__title">Tuaj jest trochę teorii o JavaScript</h3>
+        </article>
+      </section>
+
+      <section>
+        <h2><a href="pozostale.html">Pozostałe ważne</a></h2>
+        <article>
+          <h3 class="article__title">Pozostałe ważne rzeczy w nauce FrontEndu</h3>
+        </article>
+      </section>
+      <section>
+        <h2 class="test test--js">Testowy napis do zmiany</h2>
+        <button class="action--js">Zmień npis</button>
+        <p>test</p>
+      </section>
+    </main>
+    <footer>Stopka</footer>
+   
   </body>
 </html>
