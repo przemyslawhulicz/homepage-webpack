@@ -1,5 +1,7 @@
 import '../scss/main.scss';
 
+import moment from 'moment';
+
 /* place your code below */
 
 const name = 'Przemek';
@@ -96,3 +98,14 @@ hamburger.addEventListener('click',() => {
     const nav = document.querySelector('.navigation--js');
     nav.classList.toggle('navigation--open');
 });
+
+console.log(moment().startOf('day').fromNow());
+
+document.cookie = 'name = Przemek'
+
+localStorage.setItem('nowyKlucz', JSON.stringify({name: 'przemek'}));
+
+const nxtResult = localStorage.getItem('nowyKlucz');
+
+console.log(JSON.parse(nxtResult));
+
