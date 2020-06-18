@@ -1,14 +1,16 @@
 ![cover](https://cotenfrontend.pl/img/cover.png)
 
-# WTF Webpack Starter Kit 
+# WTF - uczę się jak zostać Front Ent Developerem 
 
-Simple toolkit for your static websites development.
+Strona wykonana do ćwiczeń podczas szkolenia **WTF Co Ten Frontend**.
 
-## How to use it?
+## Dlaczeog to robię?
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+Od jakiegoś czasu przestałem się rozwijać, a zawsze lubiłem nowe wyzwania. Tworzenie stron zainteresowło mnie na tyle, że postanowiłem wziąć udział w szkoleniu WTF Co Ten Frontend. Wprawdzie kilka tygodni wcześniej zacząłem się uczyć z innych źródeł, ala potrzebowałem czegoś co to wszystko ogarnia. Przypadkowo trafiłem na informacje o poprzedniej edycji szkolenia, niestety nie zapowiadało się na kolejną edycję, ale zapisałem się do newslettera. Ku mojemu ogromnemu zadowoleniu po kilku dniach otrzymałem wiadomość że startuje druga edycja. Bez wachania kupiłem dostęp i dzięku temu doskonale swoje umiejętności.
 
-## Available scripts
+## Jak z tym ruszyć?
+
+W pierwszej kolejności należy zrobić 'npm install', a następnie to co poniżej.
 
 `npm run start` - runs development mode
 
