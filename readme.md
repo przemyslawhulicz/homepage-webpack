@@ -1,6 +1,6 @@
 ![cover](https://cotenfrontend.pl/img/cover.png)
 
-# WTF - uczę się jak zostać Front Ent Developerem 
+# WTF - uczę się jak zostać Front End Developerem 
 
 Strona wykonana do ćwiczeń podczas szkolenia **WTF Co Ten Frontend**.
 
