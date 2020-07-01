@@ -1,4 +1,4 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://przemyslawhulicz.github.io/homepage-webpack/og.png)
 
 # WTF - uczę się jak zostać Front End Developerem 
 
